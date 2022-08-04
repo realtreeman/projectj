@@ -30,7 +30,9 @@
 			<tr>
 				<td>${b.bno}</td>
 				<td>
-					<a href="${b.bno}" class="get">${b.title}</a>
+					<a href="${b.bno}" class="get">
+					${b.title}<b>[${b.replyCnt}]</b>
+					</a>
 				</td>
 				<td>${b.writer}</td>
 				<td>
@@ -45,7 +47,7 @@
 		</tbody>
 		</c:forEach>
 	</table>
-	<form action="${contextPath}/board/list/board" id="listForm" class="d-flex justify-content-center">
+	<form action="${contextPath}/board/list/${category}" id="listForm" class="d-flex justify-content-center">
 		<div>
 			<select name="type">
 				<option value="">검색종류선택</option>
