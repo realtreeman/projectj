@@ -4,30 +4,31 @@
 <%@ include file="../layout/header.jsp" %>
 <div class="container">
 
-
-<div class="article_register my-4">
-	<h3>게시글 쓰기</h3>
-</div>
-
-<form action="${contextPath}/board/register" method="post">
 	
-	<div class="form-group">
-		<label for="title">제목 :</label>
-		<input type="text" name="title" class="form-control">
+	<div class="article_register my-4">
+		<h3>게시글 쓰기</h3>
 	</div>
-	<div class="form-group">
-		<label for="content">내용 :</label>
-		<textarea rows="10" cols="50" name="content" class="form-control"></textarea>
-	</div>
-	<div class="form-group">
-			<label for="writer">작성자 : </label>
-			<input type="text" name="writer" class="form-control">
-		</div>
-	<div class="d-flex justify-content-end">
+	
+	<form action="${contextPath}/board/${category}/register" method="post">
+	
 		
-		<button class="btn btn-primary">등록</button>
-	</div>
-</form>
+		<div class="form-group">
+			<label for="title">제목 :</label>
+			<input type="text" name="title" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="content">내용 :</label>
+			<textarea rows="10" cols="50" name="content" class="form-control"></textarea>
+		</div>
+		<div class="form-group">
+				<label for="writer">작성자 : </label>
+				<input type="text" name="writer" class="form-control">
+			</div>
+		<div class="d-flex justify-content-end">
+			
+			<button class="btn btn-primary">등록</button>
+		</div>
+	</form>
 	
 <div class="container">
 <%@ include file="../layout/footer.jsp" %>

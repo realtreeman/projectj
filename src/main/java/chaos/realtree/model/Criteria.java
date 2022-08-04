@@ -14,8 +14,8 @@ public class Criteria {
 	private String type; //제목+내용 , 작성자 
 	private String keyword;
 	
-	private String category;
 	
+	private String category;
 	public Criteria() {
 		this.page = 1;
 		this.perPageNum = 10;

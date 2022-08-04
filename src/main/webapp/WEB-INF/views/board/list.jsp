@@ -14,7 +14,7 @@
 	</div>
 	
 	<h2>자유게시판</h2>
-	<a href="register" class="btn btn-outline-secondary">글쓰기</a>
+	<a href="${contextPath}/board/${category}/register" class="btn btn-outline-secondary">글쓰기</a>
 	<table class="table table-dark table-hover">
 		<thead>
 			<tr>
