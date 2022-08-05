@@ -5,11 +5,8 @@
     <div class="tab">
         <div class="tab_top clearfix">
             <ul>
-                <li><a href="" class="text-secondary">캐릭터 정보</a></li>
+            	<h3 class="text-secondary">캐릭터 정보</h3>
             </ul>
-            <div class="seemore">
-                <a href="" class="text-secondary">더보기</a>
-            </div>
         </div>
         <div class="tab_bottom">
             
@@ -30,32 +27,72 @@
                         <img src="${contextPath}/resources/img/class_amazon.png" alt="">
                     </div>
                     <div class="col-lg-6"> 
-                        <strong>아마존</strong>
-                        <p>이름</p>
-                        <p>성별</p>
-                        <p>나이</p>
-                        <p>레벨</p>
-                        <p>안녕어하니이ㅏㄹ;ㅣ만얼;ㅣㄴ마ㅓㅇㄹ;니마얼</p>
+                        <h4 class="text-warning">아마존 자유게시판</h4>
+                        <table class="table text-white">
+                        	<tr>
+                        		<th>작성자</th>
+                        		<th>제목</th>
+                        		<th>등록일</th>
+                        	</tr>
+                        	<c:forEach items="${amazonList}" var="ama">
+                        	<tr>
+                        		<td>${ama.writer}</td>
+                        		<td><a href="${contextPath}/board/list/amazon">${ama.title}</a></td>
+                        		<td>${ama.regDate}</td>
+                        	</tr>
+                        	</c:forEach>
+                        </table>
                     </div>
                 </div>
               </div>
-              <div class="carousel-item row">
-                <div class="col-lg-6"> 
-                    <img src="${contextPath}/resources/img/class_assassin.png" alt="">
-                </div>
-                <div class="col-lg-6"> 
-                    <strong>어쎄신</strong>                                   
-                </div>
-              </div>
-              <div class="carousel-item row">
-                    <div class="col-lg-6"> 
+	              <div class="carousel-item">
+	              	<div class="row">
+		                <div class="col-lg-6"> 
+		                    <img src="${contextPath}/resources/img/class_assassin.png" alt="">
+		                </div>
+		                <div class="col-lg-6"> 
+		                    <h4 class="text-warning">어쎄신 자유게시판</h4>
+		                    <table class="table text-white">
+		                        <tr>
+		                        	<th>작성자</th>
+		                        	<th>제목</th>
+		                        	<th>등록일</th>
+		                        </tr>
+		                        <c:forEach items="${AssasList}" var="ass">
+		                        <tr>
+		                        	<td>${ass.writer}</td>
+		                        	<td>${ass.title}</td>
+		                        	<td>${ass.regDate}</td>
+		                        </tr>
+		                        </c:forEach>
+		                    </table>                                   
+		                </div>
+		            </div>    
+	              </div>
+              <div class="carousel-item">
+              	<div class="row">
+                	<div class="col-lg-6"> 
                         <img src="${contextPath}/resources/img/class_barbarian.png" alt="">
                     </div>
                     <div class="col-lg-6"> 
-                        <strong>바바리안</strong>             
-                    </div>
+		                <h4 class="text-warning">바바리안 자유게시판</h4>
+		                <table class="table text-white">
+		                    <tr>
+		                        <th>작성자</th>
+		                        <th>제목</th>
+		                        <th>등록일</th>
+		                    </tr>
+		                    <c:forEach items="${barbarList}" var="bar">
+		                        <tr>
+		                        	<td>${bar.writer}</td>
+		                        	<td><a href="${contextPath}/board/list/barbarian">${bar.title}</a></td>
+		                        	<td>${bar.regDate}</td>
+		                        </tr>
+		                    </c:forEach>
+		            	</table>                                   
+		        	</div>
+              	</div>
               </div>
-              
             </div>
           
             <!-- Left and right controls -->
@@ -65,7 +102,6 @@
             <a class="carousel-control-next" href="#demo" data-slide="next">
               <span class="carousel-control-next-icon"></span>
             </a>
-          
          </div> <!--캐루셀 끝-->
     </div>
 </div>

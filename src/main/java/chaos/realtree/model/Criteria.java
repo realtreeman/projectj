@@ -10,15 +10,18 @@ import lombok.ToString;
 public class Criteria {
 	private int page;
 	private int perPageNum;
+	private int boardPageNum;
 	
 	private String type; //제목+내용 , 작성자 
 	private String keyword;
 	
 	
 	private String category;
+	
 	public Criteria() {
 		this.page = 1;
 		this.perPageNum = 10;
+		this.boardPageNum = 5;
 	}
 	
 	public int getPageStart() {
