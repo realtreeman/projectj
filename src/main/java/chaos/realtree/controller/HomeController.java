@@ -18,16 +18,23 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String home(Model model) {
-		List<Board> amaLatest = service.getLatestList("amazon");
+		List<Board> ama = service.getLatestList("amazon");
 		List<Board> barbar = service.getLatestList("barbarian");
 		List<Board> Assassin = service.getLatestList("Assassin");
 		List<Board> pala = service.getLatestList("paladin");
+		List<Board> necro= service.getLatestList("necromancer");
+		List<Board> sorcer= service.getLatestList("sorceress");
+		List<Board> dru= service.getLatestList("druid");
 		
-		model.addAttribute("amazonList", amaLatest);
+		
+		model.addAttribute("amazonList", ama);
 		model.addAttribute("barbarList", barbar);
 		model.addAttribute("AssasList", Assassin);
-		
 		model.addAttribute("palaList", pala);
+		model.addAttribute("necroList", necro);
+		model.addAttribute("sorcerList", sorcer);
+		model.addAttribute("druList", dru);
+		
 		return "home";
 	}
 	

@@ -61,7 +61,7 @@
 		                        <c:forEach items="${AssasList}" var="ass">
 		                        <tr>
 		                        	<td>${ass.writer}</td>
-		                        	<td>${ass.title}</td>
+		                        	<td><a href="${contextPath}/board/list/Assassin"> ${ass.title}</a></td>
 		                        	<td>${ass.regDate}</td>
 		                        </tr>
 		                        </c:forEach>
@@ -87,6 +87,102 @@
 		                        	<td>${bar.writer}</td>
 		                        	<td><a href="${contextPath}/board/list/barbarian">${bar.title}</a></td>
 		                        	<td>${bar.regDate}</td>
+		                        </tr>
+		                    </c:forEach>
+		            	</table>                                   
+		        	</div>
+              	</div>
+              </div>
+              <div class="carousel-item">
+              	<div class="row">
+                	<div class="col-lg-6"> 
+                        <img src="${contextPath}/resources/img/class_druid.png" alt="">
+                    </div>
+                    <div class="col-lg-6"> 
+		                <h4 class="text-warning">드루이드 자유게시판</h4>
+		                <table class="table text-white">
+		                    <tr>
+		                        <th>작성자</th>
+		                        <th>제목</th>
+		                        <th>등록일</th>
+		                    </tr>
+		                    <c:forEach items="${druList}" var="dru">
+		                        <tr>
+		                        	<td>${dru.writer}</td>
+		                        	<td><a href="${contextPath}/board/list/druid">${dru.title}</a></td>
+		                        	<td>${dru.regDate}</td>
+		                        </tr>
+		                    </c:forEach>
+		            	</table>                                   
+		        	</div>
+              	</div>
+              </div>
+              <div class="carousel-item">
+              	<div class="row">
+                	<div class="col-lg-6"> 
+                        <img src="${contextPath}/resources/img/class_paladin.png" alt="">
+                    </div>
+                    <div class="col-lg-6"> 
+		                <h4 class="text-warning">팔라딘 자유게시판</h4>
+		                <table class="table text-white">
+		                    <tr>
+		                        <th>작성자</th>
+		                        <th>제목</th>
+		                        <th>등록일</th>
+		                    </tr>
+		                    <c:forEach items="${palaList}" var="pal">
+		                        <tr>
+		                        	<td>${pal.writer}</td>
+		                        	<td><a href="${contextPath}/board/list/paladin">${pal.title}</a></td>
+		                        	<td>${pal.regDate}</td>
+		                        </tr>
+		                    </c:forEach>
+		            	</table>                                   
+		        	</div>
+              	</div>
+              </div>
+              <div class="carousel-item">
+              	<div class="row">
+                	<div class="col-lg-6"> 
+                        <img src="${contextPath}/resources/img/class_necromancer.png" alt="">
+                    </div>
+                    <div class="col-lg-6"> 
+		                <h4 class="text-warning">네크로맨서 자유게시판</h4>
+		                <table class="table text-white">
+		                    <tr>
+		                        <th>작성자</th>
+		                        <th>제목</th>
+		                        <th>등록일</th>
+		                    </tr>
+		                    <c:forEach items="${necroList}" var="nec">
+		                        <tr>
+		                        	<td>${nec.writer}</td>
+		                        	<td><a href="${contextPath}/board/list/necromancer">${nec.title}</a></td>
+		                        	<td>${nec.regDate}</td>
+		                        </tr>
+		                    </c:forEach>
+		            	</table>                                   
+		        	</div>
+              	</div>
+              </div>
+              <div class="carousel-item">
+              	<div class="row">
+                	<div class="col-lg-6"> 
+                        <img src="${contextPath}/resources/img/class_sorceress.png" alt="">
+                    </div>
+                    <div class="col-lg-6"> 
+		                <h4 class="text-warning">소서리스 자유게시판</h4>
+		                <table class="table text-white">
+		                    <tr>
+		                        <th>작성자</th>
+		                        <th>제목</th>
+		                        <th>등록일</th>
+		                    </tr>
+		                    <c:forEach items="${sorcerList}" var="sor">
+		                        <tr>
+		                        	<td>${sor.writer}</td>
+		                        	<td><a href="${contextPath}/board/list/necromancer">${sor.title}</a></td>
+		                        	<td>${sor.regDate}</td>
 		                        </tr>
 		                    </c:forEach>
 		            	</table>                                   
