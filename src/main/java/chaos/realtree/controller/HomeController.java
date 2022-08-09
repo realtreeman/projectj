@@ -25,6 +25,8 @@ public class HomeController {
 		List<Board> necro= service.getLatestList("necromancer");
 		List<Board> sorcer= service.getLatestList("sorceress");
 		List<Board> dru= service.getLatestList("druid");
+		List<Board> run= service.getLatestList("rune");
+		
 		
 		
 		model.addAttribute("amazonList", ama);
@@ -34,6 +36,7 @@ public class HomeController {
 		model.addAttribute("necroList", necro);
 		model.addAttribute("sorcerList", sorcer);
 		model.addAttribute("druList", dru);
+		model.addAttribute("runList", run);
 		
 		return "home";
 	}

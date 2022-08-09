@@ -29,6 +29,7 @@ public class BoardController {
 		model.addAttribute("pageMaker",pageMaker);
 		return "board/list";
 	}
+	
 	@GetMapping("/{category}/get")
 	public String get(Long bno,Model model, @PathVariable String category) {
 		model.addAttribute("board",service.get(bno));

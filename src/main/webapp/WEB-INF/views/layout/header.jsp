@@ -55,7 +55,7 @@
 							    아이템 정보
 							</a>
 							<div class="dropdown-menu">
-							  <a class="dropdown-item" href="#">룬(Rune)</a>
+							  <a class="dropdown-item" href="${contextPath}/item/list/rune">룬(Rune)</a>
 							  <a class="dropdown-item" href="#">참(Charm)</a>
 							  <a class="dropdown-item" href="#">쥬얼(Jewel)</a>
 							  <a class="dropdown-item" href="#">보석(Gem)</a>
