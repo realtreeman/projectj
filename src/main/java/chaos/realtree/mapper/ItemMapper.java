@@ -8,4 +8,7 @@ public interface ItemMapper {
 	List<Item> getList();
 	
 	Item get(Long bno);
+	void insert(Item item);
+	void update(Item item);
+	void delete(Long bno);
 }

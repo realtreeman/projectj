@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="${contextPath}/resources/css/header.css">
 	
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -55,7 +56,7 @@
 							    아이템 정보
 							</a>
 							<div class="dropdown-menu">
-							  <a class="dropdown-item" href="${contextPath}/item/list/rune">룬(Rune)</a>
+							  <a class="dropdown-item" href="${contextPath}/item/list">룬(Rune)</a>
 							  <a class="dropdown-item" href="#">참(Charm)</a>
 							  <a class="dropdown-item" href="#">쥬얼(Jewel)</a>
 							  <a class="dropdown-item" href="#">보석(Gem)</a>

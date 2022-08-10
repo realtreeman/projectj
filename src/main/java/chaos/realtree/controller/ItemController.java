@@ -12,13 +12,13 @@ import chaos.realtree.service.ItemServiceImpl;
 @RequestMapping("/item")
 public class ItemController {
 	
-//	@Autowired
-//	private ItemServiceImpl service;
-//	
-//	@GetMapping("/list")
-//	public String getItemList(Model model) {
-//		model.addAttribute("list", service.getClass());
-//		return "item/list";
-//	}
+	@Autowired
+	private ItemServiceImpl service;
+	
+	@GetMapping("/list")
+	public String getItemList(Model model) {
+		model.addAttribute("list", service.getList());
+		return "item/list";
+	}
 
 }

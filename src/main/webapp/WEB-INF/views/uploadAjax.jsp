@@ -36,6 +36,7 @@ $(function(){
 		}
 		return true;
 	}
+	
 	let cloneObj = $('.uploadDiv').clone();
 	$('#uploadBtn').on('click',function(){
 		let formData = new FormData();
@@ -70,6 +71,7 @@ $(function(){
 		})
 		uploadResult.append(str);
 	}
+	
 })
 </script>
 </html>

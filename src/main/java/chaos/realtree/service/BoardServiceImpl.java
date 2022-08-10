@@ -5,8 +5,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import chaos.realtree.mapper.BoardAttachMapper;
 import chaos.realtree.mapper.BoardMapper;
 import chaos.realtree.model.Board;
+import chaos.realtree.model.BoardAttachVO;
 import chaos.realtree.model.Criteria;
 
 
@@ -15,6 +17,9 @@ public class BoardServiceImpl implements BoardService {
 	
 	@Autowired
 	private BoardMapper boardMapper;
+	
+	@Autowired
+	BoardAttachMapper attachMapper;
 	
 	@Override
 	public List<Board> getList(Criteria criteria) {
@@ -44,6 +49,11 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public int totalCount(Criteria criteria) {
 		return boardMapper.totalCount(criteria);
+	}
+
+	@Override
+	public List<BoardAttachVO> getAttachList(Long bno) {
+		return attachMapper.findByBno(bno);
 	}
 
 }

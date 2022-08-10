@@ -1,24 +1,19 @@
 package chaos.realtree.model;
 
-import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Setter
 @Getter
-@ToString
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Item {
-	private Long bno;
-	private String title;
-	private String content;
-	private String category;
-	
-	private List<BoardAttachVO> attachList;
-	
+@ToString
+public class AttachFileDTO {
+	private String fileName; 
+	private String uploadPath; 
+	private String uuid; 
+	private boolean image; 
 }

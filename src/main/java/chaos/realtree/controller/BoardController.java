@@ -1,5 +1,11 @@
 package chaos.realtree.controller;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,9 +15,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import chaos.realtree.mapper.BoardAttachMapper;
 import chaos.realtree.model.Board;
+import chaos.realtree.model.BoardAttachVO;
 import chaos.realtree.model.Criteria;
 import chaos.realtree.model.PageMaker;
+import chaos.realtree.service.BoardService;
 import chaos.realtree.service.BoardServiceImpl;
 
 @Controller
@@ -19,7 +28,7 @@ import chaos.realtree.service.BoardServiceImpl;
 public class BoardController {
 	
 	@Autowired
-	BoardServiceImpl service;
+	BoardService service;
 	
 	@GetMapping("/list/{category}")
 	public String boardList(Model model, Criteria criteria, @PathVariable String category) {
@@ -51,8 +60,12 @@ public class BoardController {
 	
 	@PostMapping("/remove")
 	public String remove(Long bno, RedirectAttributes rttr) {
+		List<BoardAttachVO> attachList = service.getAttachList(bno);
 		String category = service.get(bno).getCategory();
+		
+		deleteFiles(attachList);
 		service.remove(bno);
+		
 		rttr.addFlashAttribute("message", bno);
 		return "redirect:/board/list/"+category;
 	}
@@ -71,4 +84,27 @@ public class BoardController {
 		rttr.addFlashAttribute("message", board.getBno());
 		return "redirect:/board/list/"+category;
 	}
+	
+	
+	public void deleteFiles(List<BoardAttachVO> attachList) {
+		if(attachList==null || attachList.size()==0) return; 
+			
+		attachList.forEach(attach -> {
+			Path file = Paths.get("C:/storage/"+attach.getUploadPath()+"/"+attach.getUuid()+"_"+attach.getFileName());
+			System.out.println(file);
+			try {
+				Files.deleteIfExists(file);
+				if(Files.probeContentType(file).startsWith("image")) {
+					Path thumbNail = Paths.get("C:/storage/"+attach.getUploadPath()+"/s_"+attach.getUuid()+"_"+attach.getFileName());
+					System.out.println(thumbNail);
+					Files.deleteIfExists(thumbNail);
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+		});
+	}
+	
+	
 }
