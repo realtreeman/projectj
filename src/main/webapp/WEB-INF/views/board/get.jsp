@@ -3,7 +3,6 @@
     pageEncoding="UTF-8"%>
 <%@ include file="../layout/header.jsp" %>
 <script src="${contextPath}/resources/js/get.js"></script>
-<script src="${contextPath}/resources/js/reply.js"></script>
 
 <div class="container">
 	<div class="getData">

@@ -1,16 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+    
 <%@ include file="../layout/header.jsp" %>
 <div class="container">
-
-	
 	<div class="article_register my-4">
-		<h3>게시글 쓰기</h3>
+		<h3>아이템 정보 입력하기</h3>
 	</div>
 	
-	<form action="${contextPath}/board/${category}/register" method="post" id="registerForm">
+	<form action="${contextPath}/item/register" method="post" id="registerForm">
 	
+		<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
 		<div class="form-group">
 			<label for="title">제목 :</label>
 			<input type="text" name="title" class="form-control">
@@ -19,10 +18,6 @@
 			<label for="content">내용 :</label>
 			<textarea rows="10" cols="50" name="content" class="form-control"></textarea>
 		</div>
-		<div class="form-group">
-				<label for="writer">작성자 : </label>
-				<input type="text" name="writer" class="form-control">
-			</div>
 		<div class="d-flex justify-content-end">
 			
 			<button class="btn btn-primary">등록</button>
@@ -45,7 +40,7 @@
 			</div> <!-- panel end -->
 		</div> <!-- col end -->
 	</div><!-- row end -->
-</div> <!-- container end -->
+</div>
 <script>
 
 let regex = new RegExp("(.*?)\.(exe|sh|js|alz)$")
@@ -166,5 +161,6 @@ $(function(){
 
 
 </script>
-	
+
 <%@ include file="../layout/footer.jsp" %>
+
