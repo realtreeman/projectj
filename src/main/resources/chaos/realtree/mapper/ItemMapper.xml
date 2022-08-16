@@ -21,7 +21,7 @@
 	</insert>
 	
 	<update id="update">
-		update board_tbl
+		update item_tbl
 		set
 		title = #{title},
 		content = #{content}

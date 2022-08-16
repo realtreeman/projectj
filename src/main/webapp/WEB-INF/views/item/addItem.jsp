@@ -7,7 +7,7 @@
 		<h3>아이템 정보 입력하기</h3>
 	</div>
 	
-	<form action="${contextPath}/item/register" method="post" id="registerForm">
+	<form action="${contextPath}/item/${category}/addItem" method="post" id="addItemForm">
 	
 		<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
 		<div class="form-group">
@@ -89,8 +89,8 @@ function showUploadResult(uploadResultArr){
 }
 
 $(function(){
-	let form = $('#registerForm');
-	let submitBtn = $('#registerForm button');
+	let form = $('#addItemForm');
+	let submitBtn = $('#addItemForm button');
 	
 	// 글쓰기 처리 
 	submitBtn.on('click',function(e){
