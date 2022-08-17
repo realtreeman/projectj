@@ -19,12 +19,20 @@ public class ItemController {
 	@Autowired
 	private ItemService service;
 	
-	@GetMapping("/list/{category}")
-	public String getItemList(Model model,Item item ,@PathVariable String category) {
+	@GetMapping("/{category}")
+	public String getruneList(Model model,Item item ,@PathVariable String category) {
 		item.setCategory(category);
 		model.addAttribute("list", service.getList());
-		return "item/list";
+		return "item/"+category;
 	}
+	
+//	@GetMapping("/list/{rune}")
+//	public String getruneList(Model model,Item item ,@PathVariable String rune) {
+//		item.setCategory(rune);
+//		model.addAttribute("list", service.getList());
+//		return "item/"+rune;
+//	}
+	
 	
 	@GetMapping("/{category}/addItem")
 	public String addItemForm(Item item,@PathVariable String category) {
@@ -35,7 +43,7 @@ public class ItemController {
 	public String addItem(Item item, RedirectAttributes rttr, @PathVariable String category) {
 		service.register(item);
 		rttr.addFlashAttribute("message", item.getBno());
-		return "redirect:/item/list/"+category;
+		return "redirect:/item/"+category;
 	}
 
 }

@@ -8,9 +8,10 @@
 		<form action="modify" method="post" id="getForm">
 			<input type="hidden" name="bno" value="${board.bno}">
 			게시물 번호 : ${board.bno} <br>
-			제목 : <input type="text" name="title" value="${board.title}"><br>
+			<lable class="col-from-label mt-4" for="inputDefault">제목</lable>
+			<input type="text" class="form-control" name="title" value="${board.title}"><br>
 			내용 :
-			<textarea rows="" cols="" name="content">${board.content}</textarea><br>
+			<textarea class="form-control" rows="3" cols="" name="content">${board.content}</textarea><br>
 			작성자 : ${board.writer}<br>
 			<button class="btn btn-warning modify">수정하기</button>
 			<button class="btn btn-primary list">돌아가기</button>
