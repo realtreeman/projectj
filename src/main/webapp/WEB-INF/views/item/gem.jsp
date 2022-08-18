@@ -38,7 +38,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/skull/chippedskull.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>Steals 2% life,Steals 1% mana</td>
@@ -46,7 +46,7 @@
 					<td>Replenish Life +2,Regenerate Mana 8%</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/skull/flawedskull.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>Steals 2% life,Steals 2% mana</td>
@@ -54,7 +54,7 @@
 					<td>Replenish Life +3,Regenerate Mana 8%</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/skull/skull.gif" alt=""></td>
 					<td>Skull</td>
 					<td>Lv.12</td>
 					<td>Steals 3% life,Steals 2% mana</td>
@@ -62,7 +62,7 @@
 					<td>Replenish Life +3,Regenerate Mana 12%</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/skull/flawlessskull.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>Steals 3% life,Steals 3% mana</td>
@@ -70,7 +70,7 @@
 					<td>Replenish Life +4,Regenerate Mana 12%</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/skull/perfectskull.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>Steals 4% life,Steals 3% mana</td>
@@ -94,7 +94,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/amethyst/chippedamethyst1.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>+40 to Attack Rating</td>
@@ -102,7 +102,7 @@
 					<td>+3 to Strength</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/amethyst/flawedamethyst2.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>+60 to Attack Rating</td>
@@ -110,7 +110,7 @@
 					<td>+4 to Strength</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/amethyst/amethyst3.gif" alt=""></td>
 					<td>Amethyst</td>
 					<td>Lv.12</td>
 					<td>+80 to Attack Rating</td>
@@ -118,7 +118,7 @@
 					<td>+6 to Strength</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/amethyst/flawlessamethyst4.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>+100 to Attack Rating</td>
@@ -126,7 +126,7 @@
 					<td>+8 to Strength</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/amethyst/perfectamethyst5.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>+150 to Attack Rating</td>
@@ -150,7 +150,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/sapphire/chippedsaphire.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>1-3 Cold Damage- 1.0 초 지속</td>
@@ -158,7 +158,7 @@
 					<td>+10 to Mana</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/sapphire/flawedsaphire.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>3-5 Cold Damage- 1.4 초 지속</td>
@@ -166,7 +166,7 @@
 					<td>+17 to Mana</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/sapphire/saphire.gif" alt=""></td>
 					<td>Sapphire</td>
 					<td>Lv.12</td>
 					<td>4-7 Cold Damage- 2.0 초 지속</td>
@@ -174,7 +174,7 @@
 					<td>+24 to Mana</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/sapphire/flawlesssaphire.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>6-10 Cold Damage- 2.4 초 지속</td>
@@ -182,7 +182,7 @@
 					<td>+31 to Mana</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/sapphire/perfectsaphire.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>10-14 Cold Damage- 3.0 초 지속</td>
@@ -206,7 +206,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/emerald/chippedemerald.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>+10 Poison Damageover 3 Seconds</td>
@@ -214,7 +214,7 @@
 					<td>+3 to Dexterity</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/emerald/flawedemerald.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>+20 Poison Damageover 4 Seconds</td>
@@ -222,7 +222,7 @@
 					<td>+4 to Dexterity</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/emerald/emerald.gif" alt=""></td>
 					<td>Emerald</td>
 					<td>Lv.12</td>
 					<td>+42 Poison Damageover 5 Seconds</td>
@@ -230,7 +230,7 @@
 					<td>+6 to Dexterity</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/emerald/flawlessemerald.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>+60 Poison Damageover 6 Seconds</td>
@@ -238,7 +238,7 @@
 					<td>+8 to Dexterity</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/emerald/perfectemerald.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>+100 Poison Damageover 7 Seconds</td>
@@ -262,7 +262,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/ruby/flawedruby.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>3-4 Fire Damage</td>
@@ -270,7 +270,7 @@
 					<td>+10 to Life</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/ruby/chippedruby.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>5-8 Fire Damage</td>
@@ -278,7 +278,7 @@
 					<td>+17 to Life</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/ruby/ruby.gif" alt=""></td>
 					<td>Ruby</td>
 					<td>Lv.12</td>
 					<td>8-12 Fire Damage</td>
@@ -286,7 +286,7 @@
 					<td>+24 to Life</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/ruby/flawlessruby.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>10-16 Fire Damage</td>
@@ -294,7 +294,7 @@
 					<td>+31 to Life</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/ruby/perfectruby.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>15-20 Fire Damage</td>
@@ -318,7 +318,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/diamond/chippeddiamond.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>+28% Damage vs Undead</td>
@@ -326,7 +326,7 @@
 					<td>+20 to attack Rating</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/diamond/flaweddiamond.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>+34% Damage vs Undead</td>
@@ -334,7 +334,7 @@
 					<td>+40 to attack Rating</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/diamond/diamond.gif" alt=""></td>
 					<td>Diamond</td>
 					<td>Lv.12</td>
 					<td>+44% Damage vs Undead</td>
@@ -342,7 +342,7 @@
 					<td>+60to attack Rating</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/diamond/flawlessdiamond.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>+54% Damage vs Undead</td>
@@ -350,7 +350,7 @@
 					<td>+80 to attack Rating</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/diamond/perfectdiamond.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>+68% Damage vs Undead</td>
@@ -373,7 +373,7 @@
 					<td>헬름/아머 장착시</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/topaz/chippedtopaz.gif" alt=""></td>
 					<td>Chipped</td>
 					<td>Lv.1</td>
 					<td>1-8 Lightning Damage</td>
@@ -381,7 +381,7 @@
 					<td>+9% Chance toFind Magic Items</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/topaz/flawedtopaz.gif" alt=""></td>
 					<td>Flawed</td>
 					<td>Lv.5</td>
 					<td>1-14 Lightning Damage</td>
@@ -389,7 +389,7 @@
 					<td>+13% Chance toFind Magic Items</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/topaz/topaz.gif" alt=""></td>
 					<td>Topaz</td>
 					<td>Lv.12</td>
 					<td>1-22 Lightning Damage</td>
@@ -397,7 +397,7 @@
 					<td>+16% Chance toFind Magic Items</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/topaz/flawlesstopaz.gif" alt=""></td>
 					<td>Flawless</td>
 					<td>Lv.15</td>
 					<td>1-30 Lightning Damage</td>
@@ -405,7 +405,7 @@
 					<td>+20% Chance toFind Magic Items</td>
 				</tr>
 				<tr>
-					<td></td>
+					<td><img src="${contextPath}/resources/img/topaz/perfecttopaz.gif" alt=""></td>
 					<td>Perfect</td>
 					<td>Lv.18</td>
 					<td>1-40Lightning Damage</td>

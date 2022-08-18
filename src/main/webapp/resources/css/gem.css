@@ -30,7 +30,9 @@
 .gem_table_list {color: white;}
 
 .gem_table_list table {margin-top: 30px; margin-bottom: 30px; width: 800px;}
+.gem_table_list table tr td {position: relative;}
 .gem_table_list table tr:first-child {background-color: #313131;}
+.gem_table_list table tr img {width: 50px; height:50px; position: absolute; top: 50%; left: 24%; ; transform: translateY(-25px);}
 .ge_pre_title {font-weight: 600; font-size: 25px; margin-top: 100px; margin-bottom: 50px;}
 .gem_table_list p{line-height: 20px;}
 .gem_table_list td {width: 200px; outline: 1px solid gray; padding: 10px;}
