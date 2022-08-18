@@ -2,9 +2,10 @@
 
 .clearfix::after{content: ''; display: block; clear: both;}
 
-.charm_container {background: black;}
-.charm_container h2{color: white;}
-.charm_container h3{color: white;}
+
+.charm_container {background: black; padding: 50px 30px 40px 30px;}
+.charm_container .item_info{color: white; font-weight: 600; margin-top: 20px; margin-bottom: 30px;}
+.charm_container h3{color: white; margin-bottom: 40px;}
 .charm_pic .small_ch {background-image: url(../img/scharm_title.png); width: 200px; height: 100px; background-size: contain; background-repeat: no-repeat;}
 .charm_pic .large_ch {background-image: url(../img/lcharm_title.gif); width: 200px; height: 100px; background-size: contain; background-repeat: no-repeat;}
 .charm_pic .grand_ch {background-image: url(../img/gcharm_title.gif); width: 200px; height: 100px; background-size: contain; background-repeat: no-repeat;}
@@ -12,12 +13,20 @@
 .charm_ex .charm_pic > p {float: left;}
 .charm_ex .charm_text {clear: both; color: white;}
 
+.pre_suf a {color: #94772e; font-weight: 600; font-size: 20px; margin-top: 30px; margin-bottom: 10px;}
+
 .charm_ex .list_text {color: gray; padding-top: 20px;}
 .pre_suf {border-top: 1px solid white; margin-top: 40px; padding-top: 20px;}
 .pre_suf > a {float: left;}
 .pre_suf > a:last-child {margin-left: 30px;}
 
-.prefix_list {color: white; padding-top: 20px;}
+.prefix_list {color: white; padding-top: 40px;}
 
+.charm_table_list {color: white;}
+
+.charm_table_list table {margin-bottom: 30px; width: 800px;}
+.ch_pre_title {font-weight: 600;}
+.charm_table_list td {width: 200px; outline: 1px solid gray; padding: 10px;}
+.charm_table_list td:first-child {background-color: #313131;}
 
 

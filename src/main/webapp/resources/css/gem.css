@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.clearfix::after{content: ''; display: block; clear: both;}
+
+
+.gem_container {background: black; padding: 50px 30px 40px 30px;}
+.gem_container .item_info{color: white; font-weight: 600; margin-top: 20px; margin-bottom: 30px;}
+.gem_container h3{color: white; margin-bottom: 40px;}
+.gem_pic p {margin-right: 15px;}
+.gem_pic .skull_tab {background-image: url(../img/skull_tab.gif); width: 100px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+.gem_pic .ame_tab {background-image: url(../img/ame_tab.gif); width: 150px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+.gem_pic .sapp_tab {background-image: url(../img/sapp_tab.gif); width: 140px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+.gem_pic .eme_tab {background-image: url(../img/eme_tab.gif); width: 140px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+.gem_pic .ruby_tab {background-image: url(../img/ruby_tab.gif); width: 100px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+.gem_pic .dia_tab {background-image: url(../img/dia_tab.gif); width: 145px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+.gem_pic .topaz_tab {background-image: url(../img/topaz_tab.gif); width: 110px; height: 60px; background-size: contain; background-repeat: no-repeat;}
+
+.gem_ex .gem_pic > p {float: left;}
+.gem_ex .gem_text {clear: both; color: white; padding-top: 15px; padding-bottom: 50px; border-bottom: 1px solid white;}
+
+.pre_suf a {color: #94772e; font-weight: 600; font-size: 20px; margin-top: 30px; margin-bottom: 10px;}
+
+.gem_ex .list_text {color: gray; padding-top: 20px;}
+.pre_suf {border-top: 1px solid white; margin-top: 40px; padding-top: 20px;}
+.pre_suf > a {float: left;}
+.pre_suf > a:last-child {margin-left: 30px;}
+
+.prefix_list {color: white; padding-top: 40px;}
+
+.gem_table_list {color: white;}
+
+.gem_table_list table {margin-top: 30px; margin-bottom: 30px; width: 800px;}
+.gem_table_list table tr:first-child {background-color: #313131;}
+.ge_pre_title {font-weight: 600; font-size: 25px; margin-top: 100px; margin-bottom: 50px;}
+.gem_table_list p{line-height: 20px;}
+.gem_table_list td {width: 200px; outline: 1px solid gray; padding: 10px;}
+
+
+
