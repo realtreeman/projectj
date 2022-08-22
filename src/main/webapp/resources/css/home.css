@@ -2,7 +2,7 @@
 
 .clearfix::after { display: block; content: ''; clear: both;}
 
-.content {background-image: url(../img/nav-bg.jpg); background-repeat: no-repeat;}
+.content{background-image: url(../img/nav-bg.jpg);}
 
 .tab {width: 1200px; margin: auto; background: #f7f7f9;}
 .tab .tab_top{padding: 23px 42px 0 25px; background-color: black;}
@@ -20,4 +20,4 @@
 .tab_bottom .character_pic{float: left;}
 .tab_bottom .character_info{float: right;}
 
-.carousel-inner{background-image: url(../img/visual.png); background-repeat: no-repeat; background-size: cover;}
+.carousel-inner{background-image: url(../img/visual.png); background-repeat: no-repeat; background-size: cover; margin: auto;}

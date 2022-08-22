@@ -13,7 +13,7 @@
 		<input type="hidden" name="category" id="category" value="${pageMaker.criteria.category}">
 	</div>
 	
-	<h2>게시판</h2>
+	<h2>${category}</h2>
 	<a href="${contextPath}/board/${category}/register" class="btn btn-outline-secondary">글쓰기</a>
 	<table class="table table-dark table-hover">
 		<thead>

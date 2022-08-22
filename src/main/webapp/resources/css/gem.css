@@ -3,7 +3,7 @@
 .clearfix::after{content: ''; display: block; clear: both;}
 
 
-.gem_container {background: black; padding: 50px 30px 40px 30px;}
+.gem_container {background: black; padding: 50px 30px 90px 30px;}
 .gem_container .item_info{color: white; font-weight: 600; margin-top: 20px; margin-bottom: 30px;}
 .gem_container h3{color: white; margin-bottom: 40px;}
 .gem_pic p {margin-right: 15px;}

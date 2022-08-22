@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="${contextPath}/resources/css/header.css">
 	<link rel="stylesheet" href="${contextPath}/resources/css/charm.css">
 	<link rel="stylesheet" href="${contextPath}/resources/css/gem.css">
+	<link rel="stylesheet" href="${contextPath}/resources/css/jewel.css">
+	<link rel="stylesheet" href="${contextPath}/resources/css/rune.css">
 	
 	
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">

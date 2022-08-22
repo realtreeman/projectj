@@ -2,8 +2,9 @@
 
 .clearfix::after{content: ''; display: block; clear: both;}
 
+.container_wrap{background: black;}
 
-.charm_container {background: black; padding: 50px 30px 40px 30px;}
+.charm_container {background: black; padding: 50px 30px 90px 30px;}
 .charm_container .item_info{color: white; font-weight: 600; margin-top: 20px; margin-bottom: 30px;}
 .charm_container h3{color: white; margin-bottom: 40px;}
 .charm_pic .small_ch {background-image: url(../img/scharm_title.png); width: 200px; height: 100px; background-size: contain; background-repeat: no-repeat;}

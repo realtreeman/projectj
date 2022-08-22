@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.clearfix::after{content: ''; display: block; clear: both;}
+
+.container_wrap{background: black;}
+
+.rune_container {background: black; padding: 50px 30px 90px 30px;}
+.rune_container .item_info{color: white; font-weight: 600; margin-top: 20px; margin-bottom: 30px;}
+.rune_container h3{color: white; margin-bottom: 40px;}
+
+.rune_pic p {float: left; margin-right: 50px;}
+.rune_pic .rune01 {background-image: url(../img/rune/runeDol.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.rune_pic .rune02 {background-image: url(../img/rune/runeHel.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.rune_pic .rune03 {background-image: url(../img/rune/runeLo.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.rune_pic .rune04 {background-image: url(../img/rune/runeUm.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.rune_pic .rune05 {background-image: url(../img/rune/runeJo.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.rune_pic .rune06 {background-image: url(../img/rune/runeRal.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+
+
+.rune_ex .rune_text {clear: both; color: white;}
+
+.rune_ex .list_text {color: gray; padding-top: 20px;}
+
+.line {border-top: 1px solid white; margin-top: 90px; padding-top: 50px;}
+
+.rune_table_list {color: white;}
+.rune_table_list img {float: left; width: 40px; height: 40px; margin-right: 10px;}
+.rune_table_list h5 {float: left; line-height: 40px;}
+.rune_table_list h5 span {color: #f9c526;}
+.rune_table_list .rune_content {margin-bottom: 15px; padding-top: 30px;}
+.rune_table_list table{clear: both; margin-bottom: 30px; width: 800px; margin-left: 50px;}
+
+.ru_pre_title {font-weight: 600;}
+.rune_table_list td {width: 200px; outline: 1px solid gray; padding: 10px;}
+.rune_table_list td:first-child {background-color: #313131;}
+
+

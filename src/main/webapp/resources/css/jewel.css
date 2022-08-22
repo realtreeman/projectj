@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.clearfix::after{content: ''; display: block; clear: both;}
+
+
+.jewel_container {background: black; padding: 50px 30px 90px 30px;}
+.jewel_container .item_info{color: white; font-weight: 600; margin-top: 20px; margin-bottom: 30px;}
+.jewel_container h3{color: white; margin-bottom: 40px;}
+
+.jewel_pic .jewel01 {background-image: url(../img/jewel/jewel01.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.jewel_pic .jewel02 {background-image: url(../img/jewel/jewel02.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.jewel_pic .jewel03 {background-image: url(../img/jewel/jewel03.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.jewel_pic .jewel04 {background-image: url(../img/jewel/jewel04.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.jewel_pic .jewel05 {background-image: url(../img/jewel/jewel05.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+.jewel_pic .jewel06 {background-image: url(../img/jewel/jewel06.gif); width: 50px; height: 100px; background-size: contain; background-repeat: no-repeat;}
+
+.jewel_ex .jewel_pic > p {float: left; margin-right: 40px;}
+.jewel_ex .jewel_text {clear: both; color: white;}
+
+.pre_suf a {color: #94772e; font-weight: 600; font-size: 20px; margin-top: 30px; margin-bottom: 10px;}
+
+.jewel_ex .list_text {color: gray; padding-top: 20px;}
+.pre_suf {border-top: 1px solid white; margin-top: 40px; padding-top: 20px;}
+.pre_suf > a {float: left;}
+.pre_suf > a:last-child {margin-left: 30px;}
+
+.prefix_list {color: white; padding-top: 40px;}
+
+.jewel_table_list {color: white;}
+
+.jewel_table_list table {margin-bottom: 30px; width: 800px;}
+.je_pre_title {font-weight: 600;}
+.jewel_table_list td {width: 200px; outline: 1px solid gray; padding: 10px;}
+.jewel_table_list td:first-child {background-color: #313131;}
+
+
