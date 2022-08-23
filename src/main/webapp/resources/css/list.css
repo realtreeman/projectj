@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.clearfix::after{content: ''; display: block; clear: both;}
+
+.category_board {padding-top: 60px; padding-bottom: 5px;}
+.title_regi_button h1 {float: left;}
+.title_regi_button a {float: right; margin-top: 75px;}
+
+.searching_bottom {margin-top: 10px; margin-bottom: 60px;}
+.searching_type {height: 29px;}
+
+
