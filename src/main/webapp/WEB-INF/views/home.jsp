@@ -10,7 +10,7 @@
         </div>
         <div class="tab_bottom">
             
-        </div> <!-- slick 끝-->
+        </div>
         <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->

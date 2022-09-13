@@ -76,7 +76,6 @@ public class BoardController {
 	
 	@GetMapping("/{category}/register")
 	public String registerForm(Board board,@PathVariable String category) {
-		//System.out.println("글쓰기"+category);
 		return "board/register";
 	}
 	

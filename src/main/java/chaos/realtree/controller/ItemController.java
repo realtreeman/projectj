@@ -34,16 +34,16 @@ public class ItemController {
 //	}
 	
 	
-	@GetMapping("/{category}/addItem")
-	public String addItemForm(Item item,@PathVariable String category) {
-		return "item/addItem";
-	}
-	
-	@PostMapping("/{category}/addItem")
-	public String addItem(Item item, RedirectAttributes rttr, @PathVariable String category) {
-		service.register(item);
-		rttr.addFlashAttribute("message", item.getBno());
-		return "redirect:/item/"+category;
-	}
+//	@GetMapping("/{category}/addItem")
+//	public String addItemForm(Item item,@PathVariable String category) {
+//		return "item/addItem";
+//	}
+//	
+//	@PostMapping("/{category}/addItem")
+//	public String addItem(Item item, RedirectAttributes rttr, @PathVariable String category) {
+//		service.register(item);
+//		rttr.addFlashAttribute("message", item.getBno());
+//		return "redirect:/item/"+category;
+//	}
 
 }

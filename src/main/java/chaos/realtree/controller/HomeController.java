@@ -27,8 +27,6 @@ public class HomeController {
 		List<Board> dru= service.getLatestList("druid");
 		List<Board> run= service.getLatestList("rune");
 		
-		
-		
 		model.addAttribute("amazonList", ama);
 		model.addAttribute("barbarList", barbar);
 		model.addAttribute("AssasList", Assassin);
